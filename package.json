@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.21",
+    "npm-install-all": "^1.1.21",
+    "slugify": "^1.6.5"
+  },
+  "name": "complete-node-bootcamp",
+  "description": "This repo contains starter files and the finished project files for all the projects contained in the course (complete repo size is **288MB**).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grant626/complete-node-bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grant626/complete-node-bootcamp/issues"
+  },
+  "homepage": "https://github.com/Grant626/complete-node-bootcamp#readme"
+}
