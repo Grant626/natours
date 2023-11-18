@@ -69,4 +69,4 @@ if (loginForm) {
 if (logOutBtn) logOutBtn.addEventListener('click', logout);
 
 const alertMessage = document.querySelector('body').dataset.alert;
-if(alert) showAlert('success', alertMessage, 20)
+if(alertMessage) showAlert('success', alertMessage, 20)
