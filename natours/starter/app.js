@@ -57,7 +57,7 @@ app.use(
  
       objectSrc: ["'none'"],
  
-      styleSrc: ["'self'", 'https:', 'unsafe-inline'],
+      styleSrc: ["'self'", 'https:', "'unsafe-inline'"],
  
       workerSrc: ["'self'", 'data:', 'blob:'],
  
@@ -65,9 +65,7 @@ app.use(
  
       imgSrc: ["'self'", 'data:', 'blob:'],
  
-      connectSrc: ["'self'", "blob:", "http://*.mapbox.com"],
- 
-      upgradeInsecureRequests: [],
+      connectSrc: ["'self'", "blob:", "http://*.mapbox.com"]
     },
   })
 );
