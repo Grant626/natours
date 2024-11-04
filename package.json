@@ -52,6 +52,6 @@
     "parcel-bundler": "^1.12.5"
   },
   "engines": {
-    "node": "^10"
+    "node": "^18.17.1"
   }
 }
